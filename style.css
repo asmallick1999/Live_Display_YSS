@@ -6,31 +6,31 @@ body {
 }
 
 
-.navbar {
+.display_header .navbar {
     background-color: #f01557;
     border-radius: 35px;
 }
 
-header nav img {
+.display_header nav img {
     background-color: #fff;
     border-radius: 8px;
     width: 3%;
 
 }
 
-header .comp-details {
+.display_header .comp-details {
     color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
 
 }
 
-header .comp-details h4 {
+.display_header .comp-details h4 {
     font-weight: bold;
     color: #01125a;
 }
 
-header .comp-details h3 {
+.display_header .comp-details h3 {
     font-weight: bold;
 }
 
@@ -75,7 +75,7 @@ header .comp-details h3 {
 
 /* table  */
 
-table {
+.display_table{
     text-align: center;
     border-spacing: 20px 10px !important;
     background-color: white !important;
@@ -88,7 +88,7 @@ table {
 
 /* Table Header  */
 
-table tr th {
+.display_table tr th {
 
     font-size: 1.5rem;
     padding: 1.1px !important;
@@ -100,7 +100,7 @@ table tr th {
 
 /* Table Data  */
 
-table tr td {
+.display_table tr td {
 
     font-size: 1.1rem;
     padding: 0.37rem !important;
@@ -109,7 +109,7 @@ table tr td {
 }
 
 
-table tr .name {
+.display_table tr .name {
     text-transform: uppercase;
     font-weight: bold;
     padding: 0 !important;
@@ -117,7 +117,7 @@ table tr .name {
 }
 
 
-table tr .rank {
+.display_table tr .rank {
     color: #fffeb4eb;
     font-weight: bold;
     background-color: #f01557;
@@ -127,14 +127,14 @@ table tr .rank {
 
 
 
-table tr .asana {
+.display_table tr .asana {
     font-weight: bold;
     background-color: #b8fdd4;
     background-color: #f7ffc7;
 }
 
 
-table tr .et {
+.display_table tr .et {
     color: #ffffff;
     font-weight: bold;
     background-color: rgb(3 141 11);
@@ -142,13 +142,13 @@ table tr .et {
     padding: 0 !important;
 }
 
-table tr .OtGt {
+.display_table tr .OtGt {
     color: rgb(0 0 0);
     font-weight: bold;
     background-color: rgb(255 185 185 / 92%);
 }
 
-table tbody tr {
+.display_table tbody tr {
     border-radius: 35px !important;
     border-bottom: 5px solid #111b63 !important;
     margin: 10px;
@@ -156,7 +156,7 @@ table tbody tr {
 }
 
 /* footer  */
-footer {
+.display_footer {
     background-color: #f01557;
     text-align: center;
     color: #fff;
@@ -169,8 +169,4 @@ footer {
     right: 0px;
     z-index: 2;
 
-}
-
-footer .contact-no{
-    
 }
