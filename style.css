@@ -5,6 +5,7 @@ body {
 
 }
 
+
 .navbar {
     background-color: #f01557;
     border-radius: 35px;
@@ -78,9 +79,10 @@ table {
     text-align: center;
     border-spacing: 20px 10px !important;
     background-color: white !important;
-    width: 90% !important;
+    width: 100% !important;
     margin: 0 auto;
     margin-bottom: 0 !important;
+
 
 }
 
@@ -160,9 +162,15 @@ footer {
     color: #fff;
     border-radius: 35px;
     padding: 2px 0;
-    /* position:static;
-    bottom: 0;
-    width: 100%; */
-    min-height: calc(100vh - 95vh);
+    /* min-height: calc(100vh - 95vh); */
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
 
+}
+
+footer .contact-no{
+    
 }
