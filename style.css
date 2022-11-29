@@ -39,7 +39,7 @@ header .comp-details h3 {
 .blink {
     -webkit-animation: blink 6s infinite both;
     animation: blink 6s infinite both;
-    color:  rgb(244 255 100);
+    color: rgb(244 255 100);
     font-weight: bold;
 }
 
@@ -80,13 +80,14 @@ table {
     background-color: white !important;
     width: 90% !important;
     margin: 0 auto;
-    
+    margin-bottom: 0 !important;
+
 }
 
 /* Table Header  */
 
 table tr th {
-    
+
     font-size: 1.5rem;
     padding: 1.1px !important;
     border: none !important;
@@ -101,8 +102,8 @@ table tr td {
 
     font-size: 1.1rem;
     padding: 0.37rem !important;
-    background-color: #ffffff;  
-    margin: 20px !important; 
+    background-color: #ffffff;
+    margin: 20px !important;
 }
 
 
@@ -115,31 +116,53 @@ table tr .name {
 
 
 table tr .rank {
-    color:  #fffeb4eb;
+    color: #fffeb4eb;
     font-weight: bold;
-    background-color:  #f01557;
+    background-color: #f01557;
     font-size: 1.5rem;
     padding: 0 !important;
-    border-radius: 5px;
 }
 
-table tr .first4 {
-    
+
+
+table tr .asana {
+    font-weight: bold;
+    background-color: #b8fdd4;
+    background-color: #f7ffc7;
 }
 
 
 table tr .et {
-    color: rgb(2 8 116);
+    color: #ffffff;
     font-weight: bold;
-    background-color: #fbfa88eb;
+    background-color: rgb(3 141 11);
     font-size: 1.5rem;
     padding: 0 !important;
-    border-radius: 30px;
 }
 
-table tbody tr{
+table tr .OtGt {
+    color: rgb(0 0 0);
+    font-weight: bold;
+    background-color: rgb(255 185 185 / 92%);
+}
+
+table tbody tr {
     border-radius: 35px !important;
     border-bottom: 5px solid #111b63 !important;
     margin: 10px;
     border-radius: 50px !important;
+}
+
+/* footer  */
+footer {
+    background-color: #f01557;
+    text-align: center;
+    color: #fff;
+    border-radius: 35px;
+    padding: 2px 0;
+    /* position:static;
+    bottom: 0;
+    width: 100%; */
+    min-height: calc(100vh - 95vh);
+
 }
