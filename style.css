@@ -1,11 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #111b63 !important;
 
 }
 
 .navbar {
-    background-color: #FDFDBD
+    background-color: #f01557;
+    border-radius: 35px;
 }
 
 header nav img {
@@ -16,7 +18,7 @@ header nav img {
 }
 
 header .comp-details {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 100%;
     text-align: center;
 
@@ -37,7 +39,7 @@ header .comp-details h3 {
 .blink {
     -webkit-animation: blink 6s infinite both;
     animation: blink 6s infinite both;
-    color: red;
+    color:  rgb(244 255 100);
     font-weight: bold;
 }
 
@@ -74,39 +76,70 @@ header .comp-details h3 {
 
 table {
     text-align: center;
+    border-spacing: 20px 10px !important;
+    background-color: white !important;
+    width: 90% !important;
+    margin: 0 auto;
+    
 }
 
-
+/* Table Header  */
 
 table tr th {
-    /* border: 2px solid rgb(255, 255, 255) !important; */
+    
     font-size: 1.5rem;
     padding: 1.1px !important;
-    background-color: rgb(255 217 237);
     border: none !important;
-    color: rgb(0, 0, 66);
+    color: rgb(255, 255, 255);
+    background-color: #111b63 !important;
+
 }
 
+/* Table Data  */
+
 table tr td {
-    /* border-radius: 5px; */
+
     font-size: 1.1rem;
-    padding: 0.35rem !important;
-    /* background-color: #C8FFD4;   */
-    border: none !important;
+    padding: 0.37rem !important;
+    background-color: #ffffff;  
+    margin: 20px !important; 
 }
 
 
 table tr .name {
-
+    text-transform: uppercase;
     font-weight: bold;
+    padding: 0 !important;
+    font-size: 1.3rem;
 }
 
 
 table tr .rank {
-    color: rgb(18, 1, 145);
+    color:  #fffeb4eb;
     font-weight: bold;
+    background-color:  #f01557;
+    font-size: 1.5rem;
+    padding: 0 !important;
+    border-radius: 5px;
 }
 
 table tr .first4 {
     
+}
+
+
+table tr .et {
+    color: rgb(2 8 116);
+    font-weight: bold;
+    background-color: #fbfa88eb;
+    font-size: 1.5rem;
+    padding: 0 !important;
+    border-radius: 30px;
+}
+
+table tbody tr{
+    border-radius: 35px !important;
+    border-bottom: 5px solid #111b63 !important;
+    margin: 10px;
+    border-radius: 50px !important;
 }
