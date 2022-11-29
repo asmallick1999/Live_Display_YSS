@@ -143,8 +143,6 @@
     font-size: 1.5rem;
     padding: 0 !important;
     text-shadow: 2px 2px 5px rgb(0 0 0);
-    border-bottom-left-radius: 31px;
-    border-top-right-radius: 30px;
 }
 
 .display_table tr .OtGt {
@@ -202,4 +200,8 @@
 
 .presentCandidateOtGt{
     background-color: #bff8f9 !important;
+}
+
+.presentCandidateGt{
+    border-top-right-radius: 40px;
 }
