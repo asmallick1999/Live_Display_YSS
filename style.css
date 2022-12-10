@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #111b63 !important;
+    height: 100vh;
 
 }
 
@@ -106,14 +107,22 @@
     padding: 0.37rem !important;
     background-color: #ffffff;
     margin: 20px !important;
+    vertical-align:middle;
 }
 
 
 .display_table tr .name {
     text-transform: uppercase;
     font-weight: bold;
-    padding: 0 !important;
+    /* padding: 0 !important; */
     font-size: 1.3rem;
+    color: #f01557;
+}
+
+.display_table tr .unit {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #590410;
 }
 
 
@@ -148,7 +157,8 @@
 .display_table tr .OtGt {
     color: rgb(0 0 0);
     font-weight: bold;
-    background-color: rgb(255 185 185 / 92%);
+    background-color: rgb(114 113 113);
+    color: white;
 }
 
 .display_table tbody tr {
@@ -187,19 +197,24 @@
 
 
 .presentCandidateDetails{
-    background-color: #b4ffb1 !important;
+    background-color: #77fdff !important;
+    color: #2a07bc !important;
     
 }
 
+.presentCandidateRank{
+    background-color: #2a07bc !important;
+}
+
 .presentCandidateAssanaMarks{
-    background-color: rgb(208 225 249) !important;
+    background-color: rgb(241 255 102) !important;
 }
 .presentCandidateEt{
-    background-color: red !important;
+    background-color: #2a07bc !important;
 }
 
 .presentCandidateOtGt{
-    background-color: #bff8f9 !important;
+    background-color: #587272 !important;
 }
 
 .presentCandidateGt{
